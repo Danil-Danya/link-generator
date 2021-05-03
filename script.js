@@ -17,6 +17,7 @@ button.addEventListener('click', function () {
     crateLink();
     input.value = '';
 });
+
 document.addEventListener('keydown', function(e) {
     if (e.keyCode == 13){
         crateLink();
